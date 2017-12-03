@@ -127,6 +127,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		wmId = LOWORD(wParam);//¿Ø¼þID
 		wmEvent = HIWORD(wParam);//Í¨ÖªÂë
 		break;
+	case WM_ERASEBKGND:
+		break;
 	case WM_KEYDOWN:
 		break;
 	case WM_PAINT:
